@@ -59,7 +59,37 @@ def tabuada():
 
 #6 - Crie uma lista de números e utilize um loop for para calcular a soma de todos os elementos. Utilize um bloco try-except para lidar com possíveis exceções.
 
+lista_numeros = [1, 2, 3, 4, 5]
 
+# Inicializa a variável de soma
+soma = 0
+
+# Utiliza um loop for para calcular a soma dos elementos
+try:
+    for numero in lista_numeros:
+        soma += numero
+except Exception as e:
+    print(f"Erro: {e}")
+else:
+    print(f"A soma dos elementos na lista é: {soma}")
 
 #7 - Construa um código que calcule a média dos valores em uma lista. Utilize um bloco try-except para lidar com a divisão por zero, caso a lista esteja vazia.
 
+lista_valores = [10, 20, 30, 40, 50]
+
+# Inicializa a variável de soma e a variável de contagem
+soma = 0
+contador = 0
+
+# Utiliza um loop for para calcular a soma dos elementos
+try:
+    for valor in lista_valores:
+        soma += valor
+        contador += 1
+    media = soma / contador
+except ZeroDivisionError:
+    print("Erro: Divisão por zero. A lista está vazia.")
+except Exception as e:
+    print(f"Erro: {e}")
+else:
+    print(f"A média dos valores na lista é: {media}")
