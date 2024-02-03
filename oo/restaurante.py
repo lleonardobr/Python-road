@@ -8,7 +8,7 @@ class Restaurante:
         Restaurante.restaurantes.append(self)
 
     def __str__():
-        return f'{self.nome} | {self.categoria}'
+        return f'{self._nome} | {self._categoria}'
     
     @classmethod
     def listar_restaurantes(cls):
