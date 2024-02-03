@@ -1,23 +1,22 @@
 class Musica:
-    nome = ''
-    banda = '' 
-    duracao = ''
+    playlist = []
 
-musica_01 = Musica()
-musica_01.nome = 'Shape of you'
-musica_01.banda = 'Ed Sheeran'
-musica_01.duracao = '4:23'
+    def __init__(self, nome='', banda='', duracao=''):
+        self.nome = nome
+        self.banda = banda
+        self.duracao = duracao
 
-musica_02 = Musica()
-musica_02.nome = 'Blinding Lights'
-musica_02.banda = 'The Weeknd'
-musica_02.duracao = '3:33'
+    def __str__(self):
+        return f'{self.nome} | {self.banda}'
+    
+    def listar_restaurantes():
+        for musica in Musica.playlist:
+            print(f'{musica.nome} | {musica.banda}')
 
-musica_03 = Musica()
-musica_02.nome = 'Bohemian Rhapsody'
-musica_02.banda = 'Queen'
-musica_02.duracao = '5:55'
+musica_01 = Musica('Shape of you','Ed Sheeran')
+musica_02 = Musica('Blinding Ligths','The Weeknd','3:33')
+musica_03 = Musica('Bohemian Rhapsody','Queen', '5:55')
 
 playlist = [musica_01,musica_02, musica_03]
 
-print(vars(musica_01))
+print(playlist)
