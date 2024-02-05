@@ -1,0 +1,1 @@
+#9 - Imprima no console o nome e a categoria da instância restaurante_praca.
