@@ -1,4 +1,4 @@
-Exercícios
+Exercícios 01:
 1 - Imprima a frase: Python na Escola de Programação da Alura.
 
 2 - Imprima a frase: Meu nome é {nome} e tenho {idade} anos em que nome e idade precisam ser valores armazenados em variáveis.
@@ -7,7 +7,7 @@ Exercícios
 
 4 - Imprima a frase: O valor arredondado de pi é: {pi_arredondado} em que o valor de pi precisa ser armazenado em uma variável e arredondado para apenas duas casas decimais. Para facilitar, utilize:
 
-Hora da prática: condicionais
+02 -Hora da prática: condicionais
 
 5 -  Solicite ao usuário que insira um número e, em seguida, use uma estrutura if else para determinar se o número é par ou ímpar.
 
@@ -26,3 +26,39 @@ Segundo Quadrante: o valor de x é menor que zero e o valor de y é maior que ze
 Terceiro Quadrante: os valores de x e y devem ser menores que zero;
 Quarto Quadrante: o valor de x é maior que zero e o valor de y é menor que zero;
 Caso contrário: o ponto está localizado no eixo ou origem.
+
+03: Hora da prática: listas, for e try except
+
+9 - Crie uma lista para cada informação a seguir:
+
+Lista de números de 1 a 10;
+Lista com quatro nomes;
+Lista com o ano que você nasceu e o ano atual.
+
+10 - Crie uma lista e utilize um loop for para percorrer todos os elementos da lista.
+
+11 - Utilize um loop for para calcular a soma dos números ímpares de 1 a 10.
+
+12 - Utilize um loop for para imprimir os números de 1 a 10 em ordem decrescente.
+
+13 - Solicite ao usuário um número e, em seguida, utilize um loop for para imprimir a tabuada desse número, indo de 1 a 10.
+
+14 - Crie uma lista de números e utilize um loop for para calcular a soma de todos os elementos. Utilize um bloco try-except para lidar com possíveis exceções.
+
+15 - Construa um código que calcule a média dos valores em uma lista. Utilize um bloco try-except para lidar com a divisão por zero, caso a lista esteja vazia.
+
+04: Hora da prática: dicionários
+
+16 - Crie um dicionário representando informações sobre uma pessoa, como nome, idade e cidade.
+
+17 - Utilizando o dicionário criado no item 1:
+
+Modifique o valor de um dos itens no dicionário (por exemplo, atualize a idade da pessoa);
+Adicione um campo de profissão para essa pessoa;
+Remova um item do dicionário.
+
+18 - Crie um dicionário utilizando para representar números e seus quadrados de 1 a 5.
+
+19 - Crie um dicionário e verifique se uma chave específica existe dentro desse dicionário.
+
+20 - Escreva um código que conte a frequência de cada palavra em uma frase utilizando um dicionário.
